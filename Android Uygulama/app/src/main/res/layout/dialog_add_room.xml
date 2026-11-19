@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edtRoomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Oda adı"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oda İkonu"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutIcons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/iconChild"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baby"
+            android:padding="6dp"/>
+
+        <ImageView
+            android:id="@+id/iconLiving"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/television"
+            android:padding="6dp"/>
+
+        <ImageView
+            android:id="@+id/iconKitchen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/kitchen"
+            android:padding="6dp"/>
+        <ImageView
+            android:id="@+id/iconBathroom"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bath"
+            android:padding="6dp"/>
+        <ImageView
+            android:id="@+id/iconBedroom"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bedroom"
+            android:padding="6dp"/>
+        <ImageView
+            android:id="@+id/iconBalcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/balcony"
+            android:padding="6dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
